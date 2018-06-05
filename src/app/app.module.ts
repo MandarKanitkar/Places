@@ -31,7 +31,7 @@ import { TextToSpeech } from '@ionic-native/text-to-speech';
     BrowserModule,
     IonicModule.forRoot(MyApp),
     IonicStorageModule.forRoot(),
-   AgmCoreModule.forRoot({apiKey:'AIzaSyBKjEEgxsWHF1K_OD2-MZN6TwZVVNQYZI8'})
+   AgmCoreModule.forRoot({apiKey:'YOUR-KEY'})
   ],
   bootstrap: [IonicApp],
   entryComponents: [
